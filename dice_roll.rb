@@ -1,6 +1,6 @@
 
 
-def roll (range)
-  range = (1, 2, 3, 4, 5, 6)
-  puts rand(range)
+def roll
+  puts rand(1..6)
+  return rand(1..6)
 end
